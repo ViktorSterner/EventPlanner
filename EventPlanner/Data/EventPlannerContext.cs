@@ -23,5 +23,13 @@ namespace EventPlanner.Models
 
         public DbSet<EventPlanner.Models.Location> Location { get; set; }
 
+        public DbSet<EventPlanner.Models.EventCategory> EventCategory { get; set; }
+
+        public DbSet<EventPlanner.Models.Message> Message { get; set; }
+
+        public DbSet<EventPlanner.Models.EventTicket> EventTicket { get; set; }
+
+        public DbSet<EventPlanner.Models.Category> Category { get; set; }
+
     }
 }
