@@ -22,5 +22,6 @@ namespace EventPlanner.Models
         public DbSet<EventPlanner.Models.Event> Event { get; set; }
 
         public DbSet<EventPlanner.Models.Location> Location { get; set; }
+
     }
 }

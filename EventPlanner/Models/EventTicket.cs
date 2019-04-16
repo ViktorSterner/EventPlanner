@@ -15,6 +15,5 @@ namespace EventPlanner.Models
         public bool Active { get; set; }
         public DateTime PurchaseTime { get; set; }
         public double Price { get; set; }
-
     }
 }
